@@ -1,0 +1,10 @@
+.dokuwiki .aside .ui-state-active {
+	border: 1px solid #003eff;
+	background: #007fff;
+	font-weight: normal;
+	color: #ffffff;
+}
+
+.dokuwiki .aside h4 {
+    margin-bottom: 0;
+}

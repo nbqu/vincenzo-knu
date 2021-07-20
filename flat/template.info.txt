@@ -1,0 +1,7 @@
+base     flat
+author   beemoon and co
+email    contact@beemoon.fr
+date     2021-03-24
+name     Flat
+desc     A Wordpress template for Dokuwiki
+url      

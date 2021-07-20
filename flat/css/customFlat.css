@@ -1,0 +1,175 @@
+
+.page {
+    clear: both;
+    background: #fff;
+    color: inherit;
+    padding: 1.556em 2em 2em;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+#dokuwiki__pagetools ul li a.edit::before {
+    margin-top: -90px;
+}
+#dokuwiki__pagetools:hover ul li a::before, #dokuwiki__pagetools ul li a:focus::before {
+    content: none;
+}
+#dokuwiki__pagetools ul li a::before {
+    content: url(../dokuwiki/images/pagetools-sprite.png?v=2);
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+}
+
+#dokuwiki__pagetools ul li a.edit:hover, #dokuwiki__pagetools ul li a.edit:active, #dokuwiki__pagetools ul li a.edit:focus {
+    background-position: right -135px;
+}
+#dokuwiki__pagetools ul li a.edit {
+    background-position: right -90px;
+}
+#dokuwiki__pagetools ul li a:hover {
+    background-color: #eee;
+}
+#dokuwiki__pagetools ul li a:hover, #dokuwiki__pagetools ul li a:active, #dokuwiki__pagetools ul li a:focus {
+    text-decoration: none;
+}
+#dokuwiki__pagetools:hover ul li a, #dokuwiki__pagetools ul li a:focus, #dokuwiki__pagetools ul li a:active {
+    width: auto;
+    height: auto;
+    overflow: visible;
+    padding: 5px 40px 5px 5px;
+    background-image: url(../dokuwiki/images/pagetools-sprite.png?v=2);
+}
+#dokuwiki__pagetools ul li a {
+    display: block;
+    min-height: 20px;
+    line-height: 20px;
+    padding: 0;
+    background-position: right 0;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    margin-left: auto;
+}
+#dokuwiki__pagetools ul li {
+    list-style: none;
+    font-size: .875em;
+}
+
+a:link:hover, a:visited:hover, a:link:focus, a:visited:focus, a:link:active, a:visited:active {
+    text-decoration: underline;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: #2b73b7;
+}
+a {
+    outline: none;
+}
+ul {
+    list-style: square outside;
+}
+
+div#qsearch__out { display:none; }
+#dw__search button { display:none; }
+
+.docInfo {
+    font-size: .875em;
+    text-align: right;
+    padding-right:10px;
+}
+
+#masthead .site-title{font-family:Yesteryear}
+body{font-family:Lato}
+h1,h2,h3,h4,h5,h6{font-family:Bitter}
+#masthead .site-description, .hentry .entry-meta{font-family:Open Sans Condensed}
+
+body.custom-background{
+	background-color:#49595e;
+	background-position:left top;
+	background-size:auto;
+	background-repeat:repeat;
+	background-attachment:scroll
+}
+
+
+.label {
+
+    display: table-cell;
+    color: #000;
+    white-space: normal;
+	line-height: normal;
+}
+#config__manager fieldset {
+    width: 100%;
+}
+#config__manager td.label {
+    padding: .8em .8em .6em 1em;
+	font-size:80%;
+}
+
+#config__manager td.label span.outkey {
+    font-size: 100%;
+}
+#config__manager td input.edit {
+    width: 100%;
+}
+
+#config__manager tr .input, #config__manager tr input, #config__manager tr textarea, #config__manager tr select {
+    background-color: #cdf;
+    color: #000;
+}
+
+#dw__toc ul li {
+	font-size: 95%;
+}
+
+h3, .h3 {
+    font-size: 24px;
+}
+
+p{
+	margin:0;
+}
+
+.license{
+color:#FFF;
+}
+
+*::before, *::after {
+
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+élément {
+
+}
+* {
+
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+ul {
+    list-style: disc outside;
+}
+
+#secondary .widget {
+    padding: 20px;
+}
+
+.fa-gear::before, .fa-cog::before {
+    content: "\f015";
+}
+
+#dokuwiki__content p {
+	margin: 0 0 13px;
+}
+
+#qsearch__out a {
+    color: #2b73b7;
+}

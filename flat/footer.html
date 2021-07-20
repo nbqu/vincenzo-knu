@@ -1,0 +1,15 @@
+<?php
+/**
+ * DokuWiki Default Template fork 2017
+ *
+ * @link     http://dokuwiki.org/template
+ * @author   beemoon <contact@beemoon.fr>
+ * @license  GPL 2 (http://www.gnu.org/licenses/gpl.html)
+ */
+
+if (tpl_getConf('enableAccordion')==1) : ?>
+	<script>
+	var $accordion = jQuery('#accordion');
+	$accordion.accordion();
+	</script>
+<?php endif; ?>

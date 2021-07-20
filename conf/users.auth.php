@@ -12,3 +12,4 @@
 
 root:$2y$10$X6RUNZAE3WiBZmcfKAGuNuqHAHYu//7FmrEVQd8efaGh9JuaOT1X2:이주형:juhyoung98@knu.ac.kr:admin,user
 test:$2y$10$6pxNoRaZQRzVUdcIfm7Jq.oyU/wruQxk4uWzxLhWYv/f65Ladk82e:테스트:juhyoung98@knu.ac.kr:user
+tkrk20:$2y$10$yZkt3UBR1E527Ym9v6zJRuokLexsT750Hoj9nbh1rBwUquUCOkUz.:chihyeok:tkrk20@naver.com:user

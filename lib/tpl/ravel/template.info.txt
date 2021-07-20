@@ -1,0 +1,7 @@
+base     ravel
+author   Justin Tadlock
+email    afaninthehouse@gmail.com
+date     2015-08-01
+name     Ravel Template
+desc     Designed by Justin Tadlock, converted by desbest
+url      https://www.dokuwiki.org/template:ravel
