@@ -1,9 +1,0 @@
-Witaj!
-
-Zamierzasz zasubskrybować komentarze ze strony @PAGE@ w wiki @TITLE@.
-
-Aby potwierdzić subskrypcję, skorzystaj z poniższych linków:
-@SUBSCRIBE@
-
---
-Ta wiadomość została wygenerowana przez DokuWiki pod adresem @DOKUWIKIURL@

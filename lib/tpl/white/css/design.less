@@ -1,0 +1,300 @@
+/* general */
+.btn_icon {
+    text-indent: -9999px;
+}
+
+.sidebar,
+.breadcrumbs {
+    a,
+    a.wikilink1 {
+        color: @ini_text;
+    }
+    a:hover,
+    a.wikilink1:hover {
+        color: @ini_existing;
+        text-decoration: none;
+    }
+    a.wikilink2,
+    a.wikilink2:link {
+        color: @ini_missing;
+        border: none;
+    }
+}
+
+/* header */
+#dokuwiki__header {
+    background: @ini_background;
+    border-bottom: 1px solid @ini_border;
+
+    h1 {
+        margin: 5px 0 0 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font: 1.8em 'Times new roman', Times, serif;
+        white-space: nowrap;
+    }
+    a,
+    a:link,
+    a:hover,
+    a:active {
+        color: @ini_text;
+        text-decoration: none;
+    }
+    button {
+        width: 30px;
+        height: 30px;
+        margin: 5px 0;
+        border: 0 none;
+        outline: none;
+        background: transparent url('images/ipari-simpleline.png') no-repeat;
+        background-size: 30px;
+        text-indent: -9999px;
+    }
+    div.left {
+        button:first-child {
+            margin-left: 16px;
+        }
+        button {
+            margin-left: 8px;
+        }
+    }
+    div.right {
+        button:last-child {
+            margin-right: 16px;
+        }
+        button {
+            margin-right: 4px;
+        }
+    }
+    div.search {
+        display: none;
+        padding: 6px 10px;
+
+        button {
+            display: none;
+        }
+        input[type=text] {
+            padding: 4px 6px;
+        }
+    }
+    .btn_left {
+        background-position: 0 0;
+    }
+    .btn_right {
+        background-position: 0 -90px;
+    }
+    .btn_search {
+        background-position: 0 -45px;
+    }
+}
+
+/* nav */
+#dokuwiki__aside,
+#dokuwiki__tools {
+    display: none;
+    background-color: @ini_background;
+}
+#sidebar_bg {
+    display: none;
+    background-color: rgba(0, 0, 0, .75);
+}
+
+#dokuwiki__aside {
+    > h1,
+    > h2,
+    > div.level1,
+    > div.level2 {
+        padding-left: 8px;
+        padding-right: 8px;
+        margin: 0 0 8px;
+    }
+    p,
+    pre,
+    table,
+    hr,
+    blockquote,
+    figure,
+    details,
+    fieldset,
+    address {
+        margin: 0 0 .4em 0;
+    }
+    p + p {
+        margin-top: 1em;
+    }
+}
+
+.sidebar {
+    overflow-x: hidden;
+    overflow-y: auto;
+    h3 {
+        font-size: 16px;
+        margin-bottom: 0;
+        padding: 9px 12px;
+        border-bottom: 1px solid @ini_border;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0 0 .4em 0;
+    }
+    li {
+        margin: 0;
+    }
+    li li {
+        margin-left: 1em;
+    }
+    li a {
+        display: block;
+        padding: 8px 10px;
+    }
+    li a.urlextern {
+        padding: 10px 12px 10px 30px;
+        background-position: 10px 10px;
+    }
+    li a:hover {
+        background-color: @ini_background_alt !important;
+    }
+    
+    div.user {
+        padding: 6px 12px;
+    }
+}
+
+#dokuwiki__tools {
+    li a {
+        height: 30px;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    li a:before {
+        content: url('images/ipari-simpleline.png');
+        display: inline-block;
+        font-size: 0;
+        line-height: 0;
+    }
+    li a span {
+        display: inline-block;
+        vertical-align: top;
+        padding: .2em .6em;
+    }
+    li a,
+    li a:hover,
+    li a:active,
+    li a:visited {
+        background-image: none !important;
+    }
+    a.action.admin:before {
+        margin-top: -720px;
+    }
+    a.action.profile:before {
+        margin-top: -540px;
+    }
+    a.action.login:before {
+        margin-top: -630px;
+    }
+    a.action.logout:before {
+        margin-top: -675px;
+    }
+    a.action.register:before {
+        margin-top: -585px;
+    }
+    a.action.create:before {
+        margin-top: -135px;
+    }
+    a.action.show:before {
+        margin-top: -225px;
+    }
+    a.action.source:before {
+        margin-top: -180px;
+    }
+    a.action.edit:before {
+        margin-top: -90px;
+    }
+    a.action.revs:before {
+        margin-top: -495px;
+    }
+    a.action.backlink:before {
+        margin-top: -450px;
+    }
+    a.action.top:before {
+        margin-top: -405px;
+    }
+    a.action.recent:before {
+        margin-top: -270px;
+    }
+    a.action.media:before {
+        margin-top: -315px;
+    }
+    a.action.index:before {
+        margin-top: -360px;
+    }
+    // icons for plugins
+    a.action.plugin_export_pdf:before {
+        margin-top: -765px;
+    }
+}
+
+
+#to_top {
+    button {
+        width: 48px;
+        height: 48px;
+        border: 0;
+        background: transparent url('images/top.png') no-repeat;
+        opacity: 0.2;
+        text-indent: -9999px;
+    }
+}
+
+/* content */
+#dokuwiki__content {
+    margin-top: 40px;
+
+    div.breadcrumbs {
+        margin-bottom: 1em;
+        padding: 0.4em 1em;
+        opacity: 0.4;
+    }
+    div.breadcrumbs:hover {
+        opacity: 1.0;
+    }
+    div.page {
+        padding: 1em;
+    }
+}
+
+/* footer */
+#dokuwiki__footer {
+    border-top: 1px solid @ini_border;
+    padding: 0.5em 1em;
+
+    div.doc {
+        margin-bottom: 1em;
+    }
+    div.license {
+        margin-bottom: 1em;
+        font-size: 85%;
+
+        > a {
+            float: left;
+            margin-right: .5em;
+            padding-top: .3em;
+        }
+        a.urlextern {
+            float: left;
+            display: block;
+            background-position: 0 0.2em;
+        }
+        :after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+    }
+    div.footer {
+        margin: 0 -1em;
+        padding: 0.5em 1em;
+    }
+}
+
+/* icons */

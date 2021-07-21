@@ -1,0 +1,7 @@
+base     white
+author   Lee, Kwangyoung
+email    me@ipari.dev
+date     2020-08-23
+name     White Template
+desc     Simple, minimal and responsive template.
+url      https://www.dokuwiki.org/template:white

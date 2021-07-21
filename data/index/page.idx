@@ -1,6 +1,4 @@
-wiki:welcome
-test_article
 start
-wiki:dokuwiki
+sidebar
 playground:playground
-wiki:syntax
+wiki:dokuwiki

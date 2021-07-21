@@ -1,0 +1,136 @@
+@media only screen and (max-width: 760px) {
+
+/* admin */
+.dokuwiki div.ui-admin {
+    ul.admin_tasks,
+    ul.admin_plugins {
+        float: none;
+        width: 90%;
+        margin: 0;
+    }
+}
+// before "Frusterick Manners"
+.dokuwiki ul.admin_tasks {
+    float: none;
+    width: auto;
+    margin: 0;
+}
+
+/* config */
+#config__manager {
+    fieldset {
+        legend {
+            padding: 0;
+        }
+        td.label,
+        td.value {
+            display: block;
+            width: auto !important;
+        }
+        td.label {
+            padding: .2em .4em;
+            border: none;
+        }
+        td.value {
+            padding: .4em .4em 1.2em;
+            border: none;
+            background: @ini_background;
+        }
+        div.selection {
+            float: none;
+            width: auto;
+            margin-right: 0;
+        }
+    }
+}
+
+/* media manager */
+#mediamanager__page {
+    .panel {
+        float: none;
+    }
+    .namespaces {
+        width: auto;
+    }
+    .filelist {
+        width: auto;
+        min-width: 0;
+        ul {
+            margin: 0;
+        }
+        ul.rows li {
+            display: inline-block;
+            float: left;
+            width: 50%;
+            max-height: none !important;
+
+            dt,
+            dd {
+                float: none !important;
+                width: auto !important;
+            }
+            dt {
+                height: 60px;
+            }
+            dt a {
+                text-align: left;
+                vertical-align: top;
+                width: auto;
+                height: 60px;
+                padding: 0;
+            }
+            dt a img {
+                max-width: none;
+                max-height: 60px;
+            }
+        }
+        ul.rows li:nth-child(2n+1) {
+            background: none;
+        }
+        ul.rows li:hover {
+            background: @ini_background_alt;
+        }
+    }
+    .panelHeader {
+        margin-right: 0;
+        h3 {
+            float: none;
+        }
+        form.options {
+            float: none;
+        }
+        ul li.listType {
+            margin-left: -2px;
+        }
+    }
+    .panelContent {
+        margin: 0 0 20px 0;
+    }
+    .file {
+        width: auto;
+
+    }
+    .ui-resizable-e {
+        display: none !important;
+    }
+}
+
+} /* @media for 760px */
+
+
+@media only screen and (max-width: 480px) {
+    /* TOC */
+    #dw__toc {
+        display: block;
+    }
+
+    /* WRAP plugin */
+    .dokuwiki .wrap_left,
+    .dokuwiki .wrap_right,
+    .dokuwiki .wrap_center,
+    .dokuwiki .wrap_column {
+        float: inherit;
+        width: 100% !important;
+        margin: 0;
+    }
+} /* @media for 480px */

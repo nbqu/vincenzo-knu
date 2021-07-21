@@ -1,0 +1,341 @@
+/* content */
+#dokuwiki__content {
+    /* existing wikipage */
+    a.wikilink1 {
+        color: @ini_existing;
+    }
+    /* not existing wikipage */
+    a.wikilink2 {
+        border-bottom: 1px dashed @ini_missing;
+        color: @ini_missing;
+    }
+    a.wikilink2:link,
+    a.wikilink2:visited {
+        border-bottom: none;
+    }
+    a.wikilink2:hover,
+    a.wikilink2:active,
+    a.wikilink2:focus {
+        border-bottom-width: 0;
+    }
+
+    /*____________ Numbered Headings ____________*/
+
+    .page.numbered_heading {
+        /* TOC */
+        #dw__toc li.level1 {
+            counter-reset: toc-level1;
+        }
+        #dw__toc li.level2 > div > a:before {
+            color: @ini_numbered_heading;
+            content: counter(toc-level1) ". ";
+            counter-increment: toc-level1;
+        }
+        #dw__toc li.level2 {
+            counter-reset: toc-level2;
+        }
+        #dw__toc li.level3 > div > a:before {
+            color: @ini_numbered_heading;
+            content: counter(toc-level1) "." counter(toc-level2) ". ";
+            counter-increment: toc-level2;
+        }
+        #dw__toc li.level3 {
+            counter-reset: toc-level3;
+        }
+        #dw__toc li.level4 > div > a:before {
+            color: @ini_numbered_heading;
+            content: counter(toc-level1) "." counter(toc-level2) "." counter(toc-level3) ". ";
+            counter-increment: toc-level3;
+        }
+
+        /* Contents */
+        counter-reset: level1;
+        h2:before {
+            color: @ini_numbered_heading;
+            content: counter(level1) ". ";
+            counter-increment: level1;
+        }
+        h2 {
+            counter-reset: level2;
+        }
+        h3:before {
+            color: @ini_numbered_heading;
+            content: counter(level1) "." counter(level2) ". ";
+            counter-increment: level2;
+        }
+        h3 {
+            counter-reset: level3;
+        }
+        h4:before {
+            color: @ini_numbered_heading;
+            content: counter(level1) "." counter(level2) "." counter(level3) ". ";
+            counter-increment: level3;
+        }
+        h2:before,
+        h3:before,
+        h4:before {
+            font-size: 90%;
+        }
+
+        #dw__toc h3:before {
+            content: '';
+        }
+    }
+
+    div.license {
+        margin: 0 -1em;
+        padding: .4em 1em;
+        background-color: @ini_background_alt;
+    }
+    .medialeft {
+        margin-right: .6em;
+    }
+    .mediaright {
+        margin-left: .6em;
+    }
+}
+
+/* table of contents */
+#dw__toc {
+    float: inherit;
+    display: inline-block;
+    width: auto;
+    margin: 0 0 1.4em 0;
+    border: 1px solid @ini_border;
+    background-color: @ini_background;
+
+    span {
+        float: right;
+    }
+    h3,
+    div {
+        padding: .4em .8em;
+    }
+    h3.toggle {
+        margin: 0;
+        font-size: 1em;
+    }
+    h3.closed {
+        border: none;
+    }
+    a {
+        color: @ini_text;
+    }
+}
+
+/* any link to current page */
+.dokuwiki span.curid a {
+    font-weight: bold;
+}
+
+/* undo "clever" styling from fileuploader.js */
+.qq-upload-button {
+    cursor: inherit !important;
+    direction: inherit !important;
+}
+.qq-upload-button input {
+    font-family: inherit !important;
+    font-size: 1em !important;
+    margin: inherit !important;
+    opacity: 1 !important;
+    padding: inherit !important;
+    position: static !important;
+}
+
+.JSpopup {
+    padding: 0.2em 0.4em;
+    border: 1px solid @ini_border;
+}
+
+/* editor */
+.dokuwiki .editBar {
+    .editButtons,
+    .summary {
+        display: block !important;
+        margin-bottom: .6em;
+    }
+}
+
+
+/* fields */
+.dokuwiki fieldset {
+    width: auto;
+    text-align:left;
+    margin: 0 0 1em 0;
+    padding: 1em;
+    border: none;
+    background: @ini_background_alt;
+
+    legend {
+        display: block;
+        padding: 0;
+        font-weight: bold;
+        font-size: 1.4em;
+    }
+
+    span {
+        display: inline-block;
+        margin: 0 0 .2em 0;
+        vertical-align: top;
+    }
+
+    label.block {
+        text-align: left;
+
+        span {
+            display: block;
+        }
+
+        input.edit {
+            width: 100%;
+            max-width: 400px;
+        }
+    }
+}
+
+/* login */
+#dw__login,
+#dw__register {
+    label.simple {
+        margin-left: 0;
+    }
+}
+
+/* admin */
+/* _admin.less in default template */
+
+/* main task grouped in two columns */
+.dokuwiki div.ui-admin {
+    ul.admin_tasks,
+    ul.admin_plugins {
+        float: left;
+        width: 40%;
+        list-style-type: none;
+
+        /* general menu item styling */
+        li {
+            margin: 0 0 0.5em 0;
+            white-space: nowrap;
+
+            a span {
+                display: inline-block;
+
+                &.icon {
+                    vertical-align: top;
+                    margin-right: 0.5em;
+
+                    svg {
+                        width: 1.5em;
+                        height: 1.5em;
+                    }
+                }
+
+                &.prompt {
+                    white-space: normal;
+                }
+            }
+        }
+    }
+    [dir=rtl] & ul.admin_tasks,
+    [dir=rtl] & ul.admin_plugins {
+        float: right;
+    }
+}
+
+
+/* DokuWiki version */
+#admin__version {
+    clear: left;
+    margin-bottom: 2em;
+    color: @ini_text_alt;
+}
+[dir=rtl] & #admin__version {
+    clear: right;
+    float: left;
+}
+
+
+/* config */
+#config__manager {
+    fieldset {
+        margin: 0 0 2em 0;
+        padding: 0;
+        border: none;
+        background: none;
+
+        legend {
+            text-align: left;
+            font-size: 1.666em; // same as h3
+        }
+        div.table {
+            width: 100%;
+            padding: 0;
+            background: @ini_background_alt;
+        }
+        table {
+            width: 100%;
+        }
+        td.label {
+            padding: .4em .4em 1em;
+            span.outkey {
+                margin-top: -1.2em;
+            }
+        }
+        td {
+            div.input {
+                width: auto;
+                padding: 2px 4px;
+            }
+            input.edit {
+                padding: 4px 6px;
+            }
+            input.edit,
+            select.edit,
+            textarea.edit {
+                width: 100%;
+                border: none;
+            }
+        }
+        div.selection {
+            width: 40%;
+            padding: 2px 4px;
+
+            label {
+                width: 90%;
+            }
+        }
+        div.other {
+            background: none;
+        }
+    }
+}
+
+/* media manager */
+#mediamanager__page {
+    min-width: 0 !important;
+
+    .namespaces {
+        min-width: 0;
+    }
+    .filelist {
+        min-width: 0;
+        .rows li  {
+            dt a {
+                vertical-align: top;
+            }
+            dt a img {
+                max-width: 100%;
+            }
+            .name,
+            .size,
+            .filesize,
+            .date {
+                white-space: normal;
+                word-wrap: break-word;
+            }
+        }
+    }
+    .file {
+        min-width: 0;
+    }
+}
