@@ -26,3 +26,6 @@ CSE Wiki는 컴퓨터학부 교육과정에만 한정되지 않습니다. 교육
 ### 토론 기능
 문서를 직접 작성하는 것 만이 Wiki에 기여하는 방법은 아닙니다. 토론 기능을 통해 이슈를 남기는 것도 Wiki에 기여하는 것입니다. 문서에 대해 질문을 남기는 것도, 토론을 통해 내용을 수정/추가하는 것 모두 Wiki가 더욱 풍성해 질 수 있는 방법입니다. 따라서 문서에 직접 내용을 기여하지 않는 사람이라도 Wiki 기여자의 일원이 될 수 있습니다.
 > Written with [StackEdit](https://stackedit.io/).
+
+
+![image](https://user-images.githubusercontent.com/45387962/126637511-d7a668f5-bc27-4fcb-b300-e8ec4bac07ed.png)
