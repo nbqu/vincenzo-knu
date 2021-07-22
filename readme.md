@@ -50,7 +50,8 @@ COVID-19 이전의 학습격차를 줄이기 위해서는 멘토-멘티 프로�
 
 CSE WiKi는 기본적으로 도쿠위키(DoKuWiKi)라는 위키엔진을 사용합니다. 
 
-![image](https://user-images.githubusercontent.com/45387962/126648625-93a988db-a19f-43c1-be1d-4ad52fe07f64.png)
+![image](https://user-images.githubusercontent.com/45387962/126648816-abe960f3-c97b-441c-931b-fd4d467e5318.png)
+
 
 
 ### 도쿠위키란.
