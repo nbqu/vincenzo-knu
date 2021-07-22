@@ -1,6 +1,8 @@
 ﻿## 2021 컴퓨터학부 해커톤 - CSE Wiki
 > Team 빈센조 : 곽승규(글솝, 2017112544),  이주형, (글솝, 2017114567), 황치혁(글솝, 2017112366)
 
+<p align="center"><img src="![image](https://user-images.githubusercontent.com/45387962/126652586-243c26a2-a91a-4c76-80e8-7c7669ca3d81.png)"></p>
+
 ### CSE Wiki는
 KNU CSE Wiki는 경북대학교 컴퓨터학부에서 개설되는 강좌들이 다루는 지식들을 공유하는 플랫폼입니다. COVID-19로 비대면 수업이 계속되고 있고, 코로나 이전에는 활발히 진행되었던 여러 가지 활동들도 멈추게 되었습니다.
 
@@ -48,7 +50,6 @@ CSE WiKi는 기본적으로 도쿠위키(DoKuWiKi)라는 위키엔진을 사용�
 ### 도쿠위키란.
 
 <p align="center"><img src="https://user-images.githubusercontent.com/45387962/126648816-abe960f3-c97b-441c-931b-fd4d467e5318.png"></p>
-<!-- ![image](https://user-images.githubusercontent.com/45387962/126648816-abe960f3-c97b-441c-931b-fd4d467e5318.png) -->
 
 도쿠위키엔진은 텍스트 파일 기반의 위키이며 설정이나 기본 사용법이 간단하고 설치 및 백업, 복구 등도 용이합니다. 그리고 ACL 기능을 기본적으로 탑재하고 있어 회원제나 완전 비공개 위키를 간단하게 구현할 수 있습니다. 파일 기반 위키답게 백업도 편리합니다. 
 또한 많은 수의 플러그인이 있어 기능 확장을 쉽게 할 수 있습니다. 
