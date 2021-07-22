@@ -1,7 +1,7 @@
 ﻿## 2021 컴퓨터학부 해커톤 - CSE Wiki
 > Team 빈센조 : 곽승규(글솝, 2017112544),  이주형, (글솝, 2017114567), 황치혁(글솝, 2017112366)
 
-![image](https://user-images.githubusercontent.com/45387962/126652586-243c26a2-a91a-4c76-80e8-7c7669ca3d81.png)
+<p align="center"><img src="https://user-images.githubusercontent.com/45387962/126652586-243c26a2-a91a-4c76-80e8-7c7669ca3d81.png"></p>
 
 ### CSE Wiki는
 KNU CSE Wiki는 경북대학교 컴퓨터학부에서 개설되는 강좌들이 다루는 지식들을 공유하는 플랫폼입니다. COVID-19로 비대면 수업이 계속되고 있고, 코로나 이전에는 활발히 진행되었던 여러 가지 활동들도 멈추게 되었습니다.
