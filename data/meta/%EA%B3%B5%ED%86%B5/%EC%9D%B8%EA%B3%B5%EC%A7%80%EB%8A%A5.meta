@@ -1,0 +1,7 @@
+a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1626949883;s:8:"modified";i:1626953824;}s:7:"creator";s:9:"곽승규";s:4:"user";s:4:"root";s:11:"last_change";a:8:{s:4:"date";i:1626953824;s:2:"ip";s:3:"::1";s:4:"type";s:1:"E";s:2:"id";s:19:"공통:인공지능";s:4:"user";s:4:"root";s:3:"sum";s:0:"";s:5:"extra";s:0:"";s:10:"sizechange";i:333;}s:11:"contributor";a:1:{s:4:"root";s:9:"곽승규";}s:5:"title";s:12:"인공지능";s:11:"description";a:2:{s:15:"tableofcontents";a:1:{i:0;a:4:{s:3:"hid";s:12:"인공지능";s:5:"title";s:12:"인공지능";s:4:"type";s:2:"ul";s:5:"level";i:1;}}s:8:"abstract";s:257:"인공지능
+
+강의 개요
+
+인공지능을 위한 기본 이론으로서 패턴인식과 기계학습에 대한 용어와 방법론을 이해하고, 실제 데이터에 대한 적용 사례를 통해 인공지능에 대한 이해를 높인다.
+
+----------";}s:8:"relation";a:2:{s:5:"media";a:1:{s:13:"공통:ai.png";b:1;}s:10:"firstimage";s:13:"공통:ai.png";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1626949883;s:8:"modified";i:1626953824;}s:7:"creator";s:9:"곽승규";s:4:"user";s:4:"root";s:11:"last_change";a:8:{s:4:"date";i:1626953824;s:2:"ip";s:3:"::1";s:4:"type";s:1:"E";s:2:"id";s:19:"공통:인공지능";s:4:"user";s:4:"root";s:3:"sum";s:0:"";s:5:"extra";s:0:"";s:10:"sizechange";i:333;}s:11:"contributor";a:1:{s:4:"root";s:9:"곽승규";}}}

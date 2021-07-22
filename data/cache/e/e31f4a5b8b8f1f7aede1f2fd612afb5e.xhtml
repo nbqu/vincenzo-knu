@@ -1,0 +1,120 @@
+
+<h5 id="강의_개요">강의 개요</h5>
+<div class="level5">
+
+<p>
+본 과목에서는 컴퓨터 소프트웨어를 구성하는 중요한 요소인 자료구조(data structure)를 다룬다. 선형자료구조(linear data structure)인 리스트(list), 스택(stack), 큐(queue)와 더불어 트리(tree), 그래프(graph) 등의 비선형자료구조(non-linear data structure)에 대해 설명하며, 마지막으로 자료에 대한 정렬(sorting), 탐색(searching) 등의 알고리즘도 소개한다.
+</p>
+<hr />
+
+</div>
+
+<h5 id="강의_목표">강의 목표</h5>
+<div class="level5">
+
+<p>
+* 주어진 환경에서 다양한 문제를 분석하고 효율적으로 해결하기 위한 능력 배양
+* 보다 나은 문제해결 방법을 모색하는 능력 향상
+* 문제 해결 과정에서 토론을 통해 상호 의사소통 능력 배양
+</p>
+<hr />
+
+<p>
+<a href="http://my.knu.ac.kr/stpo/stpo/cour/plans/viewPlanDetail.action?plans.searchOpenYrTrm=%2720212%27&amp;plans.searchSubjCde=%27COME331%27&amp;plans.searchSubClassCde=%27010%27" class="urlextern" title="http://my.knu.ac.kr/stpo/stpo/cour/plans/viewPlanDetail.action?plans.searchOpenYrTrm=%2720212%27&amp;plans.searchSubjCde=%27COME331%27&amp;plans.searchSubClassCde=%27010%27" rel="ugc nofollow">세부 강의계획서</a>
+</p>
+<ol>
+<li class="level1 node"><div class="li"> <a href="#분류" title="공통:자료구조 ↵" class="wikilink1">분류</a></div>
+<ol>
+<li class="level2"><div class="li"> <a href="#구현에_따라" title="공통:자료구조 ↵" class="wikilink1">구현에 따라</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="#형태에_따라" title="공통:자료구조 ↵" class="wikilink1">형태에 따라</a></div>
+</li>
+</ol>
+</li>
+</ol>
+
+</div>
+
+<h5 id="분류">분류</h5>
+<div class="level5">
+<hr />
+
+<p>
+자료의 특성과 크기, 주요 사용법과 수행하는 연산의 종류, 구현에 필요한 기억 공간 크기에 따라 여러 가지 종류의 자료구조 중 하나를 선택할 수 있다. 자료구조의 종류로는 자료형의 따라 분류하는 단순 구조와 자료 간 관계가 1 대 1인 선형 구조, 1 대 다 혹은 다 대 다 구조인 비선형 구조, 마지막으로 파일 구조가 있다.
+</p>
+
+</div>
+
+<h5 id="구현에_따라">구현에 따라</h5>
+<div class="level5">
+<ul>
+<li class="level1"><div class="li"> 배열 - 가장 일반적인 구조이다. 메모리 상에 같은 타입의 자료가 연속적으로 저장된다. 자료값을 나타내는 가장 작은 단위가 자료를 다루는 단위이다.</div>
+</li>
+<li class="level1"><div class="li"> 튜플 - 둘 이상의 자료형을 묶음으로 다루는 구조이다.</div>
+</li>
+<li class="level1"><div class="li"> 연결 리스트 - 노드를 단위로 한다. 노드는 자료와 다음 노드를 가리키는 참조값으로 구성되어 있다. 노드가 다음 노드로 아무것도 가리키지 않으면 리스트의 끝이다.</div>
+</li>
+<li class="level1"><div class="li"> 원형 연결 리스트 - 각 노드는 다음 노드를 가리키고, 마지막 노드가 처음 노드를 가리키는 연결 리스트이다.</div>
+</li>
+<li class="level1"><div class="li"> 이중 연결 리스트 - 각 노드는 이전 노드와 다음 노드를 가리키는 참조값으로 구성된다. 처음 노드의 이전 노드와 마지막 노드의 다음 노드는 없다.</div>
+</li>
+<li class="level1"><div class="li"> 환형 이중 연결 리스트 - 처음 노드가 이전 노드로 마지막 노드를 가리키고, 마지막 노드가 다음 노드로 처음 노드를 가리키는 이중 연결 리스트이다.</div>
+</li>
+<li class="level1"><div class="li"> 해시 테이블 - 개체가 해시값에 따라 인덱싱된다.</div>
+</li>
+</ul>
+
+</div>
+
+<h5 id="형태에_따라">형태에 따라</h5>
+<div class="level5">
+<ul>
+<li class="level1 node"><div class="li"> 선형 구조</div>
+<ul>
+<li class="level2"><div class="li"> 스택 - 스택 자료구조에 먼저 저장된 것이 꺼내어 쓸 때는 제일 나중에 나온다. 반대로, 가장 최근에 저장된 것이 꺼내어 쓸 때는 제일 먼저 나온다. 만약, 자료들의 나열 순서를 바꾸고 싶다면 스택에 집어 넣었다가 꺼내면 역순으로 바뀐다.</div>
+</li>
+<li class="level2 node"><div class="li"> 큐 - 스택과 반대로 큐 자료구조에 먼저 저장된 것이 제일 먼저 나온다. 반대로, 가장 나중에 저장된 것이 꺼내어 쓸 때는 가장 나중에 나온다.</div>
+<ul>
+<li class="level3"><div class="li"> 환형 큐 - 한정된 길이 안에서 부수적인 작업 없이 읽고 쓰기를 할 수 있는 큐이다.</div>
+</li>
+</ul>
+</li>
+<li class="level2"><div class="li"> 덱 - 양쪽에서 넣기와 빼기를 할 수 있는 일반화된 선형 구조이다.</div>
+</li>
+</ul>
+</li>
+<li class="level1 node"><div class="li"> 비선형 구조</div>
+<ul>
+<li class="level2"><div class="li"> 그래프 - 꼭짓점과 꼭짓점을 잇는 변으로 구성된다.</div>
+</li>
+</ul>
+</li>
+</ul>
+
+<p>
+유향 그래프, 무향 그래프 - 변이 방향성을 갖는지 갖지 않는지에 따른 그래프의 분류이다.무향 그래프의 경우, 순환이 없는 연결 그래프를 뜻한다. 유향 그래프의 경우 변의 방향은 보통 부모를 가리키도록 구현된다.
+</p>
+<ul>
+<li class="level1 node"><div class="li"> 트리 - 뿌리와, 뿌리 또는 다른 꼭짓점을 단 하나의 부모로 갖는 꼭짓점들로 이루어진 구조. 부모 자식 관계는 변으로 표현된다.</div>
+<ul>
+<li class="level3"><div class="li"> 이진 트리 - 자식이 최대 두 개인 트리.</div>
+</li>
+</ul>
+</li>
+</ul>
+<div class="table sectionedit1"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0"><a href="/lib/exe/detail.php?id=%EA%B3%B5%ED%86%B5%3A%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0&amp;media=%EA%B3%B5%ED%86%B5:binary_tree.png" class="media" title="공통:binary_tree.png"><img src="/lib/exe/fetch.php?w=400&amp;tok=72484a&amp;media=%EA%B3%B5%ED%86%B5:binary_tree.png" class="mediaright" alt="" width="400" /></a></th>
+	</tr>
+	</thead>
+	<tr class="row1">
+		<td class="col0 centeralign">  이진트리의 예                           </td>
+	</tr>
+</table></div>
+<!-- EDIT{&quot;target&quot;:&quot;table&quot;,&quot;name&quot;:&quot;&quot;,&quot;hid&quot;:&quot;table&quot;,&quot;secid&quot;:1,&quot;range&quot;:&quot;4042-4129&quot;} --><ul>
+<li class="level1"><div class="li"> 힙 - 이진트리의 일종으로 이진트리에 어떤 특성을 부여한 것이라 할 수 있다.</div>
+</li>
+</ul>
+
+</div>
